@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2b3044;
+    color: white;
+}
+
+nav {
+    padding-bottom: 40px;
+    background: #323650;   
+}
+
+nav span { 
+    left: 100px;
+    margin: 18px 0;
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Lato', sans-serif;    
+}
+
+li button {
+    margin: 10px 0;
+    right: 100px;
+    position: absolute;
+}
+
+#btn-inicio {
+    width: 100px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+section {
+    padding-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background: #323e57;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_clipboard {
+    display: none;
+    background: #FFFFFF;
+    border: none;
+    margin-top: 5px;
+}
+
+.btn_clipboard img {
+    width: 15px;
+    height: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label #input_prontuario {
+    margin-left: 56px;
+}
+
+label #input_atendimentoHis {
+    margin-left: 15px;
+}
+
+label #input_integracaoHis {
+    margin-left: 30px;
+}
+
+#aviso_AC, #aviso_prontuario {
+    display: none;
+    color: #FF0000;
+}
+

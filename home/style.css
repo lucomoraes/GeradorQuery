@@ -1,0 +1,45 @@
+body {
+    color: #FFFFFF;
+    background: #2b3044;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 10%;
+    padding-top: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0
+}
+
+.menu {    
+    width: 300px;    
+    padding: 60px;   
+    transition: 2s; 
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 30px;    
+    margin-left: 30px;        
+    text-align: center;
+    border-radius: 10px;    
+    background: #323e57;
+    border: 1px solid #FFFFFF;    
+}
+
+.menu:hover {
+    background: #2b3044;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
