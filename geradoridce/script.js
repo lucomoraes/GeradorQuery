@@ -36,7 +36,7 @@ const queryRVEPMLCAtendimentoHis = document.querySelector('#RVEPMLC_atendimentoH
 
 //Retornar ao menu principal:
 btnInicio.addEventListener('click', () => {
-    window.location.href = "/home/home.html";
+    window.location.href = "https://lucomoraes.github.io/GeradorQuery/home/home.html";
 });
 
 //Gerar querys:
