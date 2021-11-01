@@ -49,8 +49,8 @@ btnAC.addEventListener('click', () => {
         + inputAC.fontcolor('#32CD32') + "'";         
     queryRVEPMLCAC.innerHTML = 'SELECT * FROM '.fontcolor('#32CD32') + 'RS_VW_EXAME_PEDIDO_MULTI_LOGIN ' + 'WHERE'.fontcolor('#32CD32') + ' CD_ITEM_PEDIDO_HIS = ' + "'"   
         + inputAC.fontcolor('#32CD32') + "'";      
-    queryISSSAC.innerHTML = 'SELECT '.fontcolor('#32CD32') + 'CD_INTEGRA_SAIDA_SOLIC_SADT, NM_PACIENTE, CD_ITEM_PEDIDO, CD_PACIENTE, DS_ERRO, TP_INTEGRACAO, DT_INTEGRACAO, ' + 
-        ' * FROM '.fontcolor('#32CD32') + 'MVINTEGRA.INTEGRA_SAIDA_SOLICITACAO_SADT ' + 'WHERE'.fontcolor('#32CD32') + ' CD_ITEM_PEDIDO = ' + "'" 
+    queryISSSAC.innerHTML = 'SELECT '.fontcolor('#32CD32') + 'CD_INTEGRA_SAIDA_SOLIC_SADT, NM_PACIENTE, CD_ITEM_PEDIDO, CD_PACIENTE, DS_ERRO, TP_INTEGRACAO, DT_INTEGRACAO ' + 
+        'FROM '.fontcolor('#32CD32') + 'MVINTEGRA.INTEGRA_SAIDA_SOLICITACAO_SADT ' + 'WHERE'.fontcolor('#32CD32') + ' CD_ITEM_PEDIDO = ' + "'" 
             + inputAC.fontcolor('#32CD32') + "'";   
     btnClipboardISSSAC.setAttribute('style', 'display: inline-block');
     btnClipboardRLEPAC.setAttribute('style', 'display: inline-block');
@@ -66,8 +66,8 @@ btnProntuario.addEventListener('click', () => {
         + inputProntuario.fontcolor('#32CD32') + "'";
     queryRVEPMLCProntuario.innerHTML = 'SELECT * FROM '.fontcolor('#32CD32') + 'RS_VW_EXAME_PEDIDO_MULTI_LOGIN ' + 'WHERE'.fontcolor('#32CD32') + ' CD_PACIENTE_HIS = ' + "'"   
         + inputProntuario.fontcolor('#32CD32') + "'";     
-    queryISSSProntuario.innerHTML = 'SELECT '.fontcolor('#32CD32') + 'CD_INTEGRA_SAIDA_SOLIC_SADT, NM_PACIENTE, CD_ITEM_PEDIDO, CD_PACIENTE, DS_ERRO, TP_INTEGRACAO, DT_INTEGRACAO, ' + 
-    ' * FROM '.fontcolor('#32CD32') + 'MVINTEGRA.INTEGRA_SAIDA_SOLICITACAO_SADT ' + 'WHERE'.fontcolor('#32CD32') + ' CD_PACIENTE = ' + "'" 
+    queryISSSProntuario.innerHTML = 'SELECT '.fontcolor('#32CD32') + 'CD_INTEGRA_SAIDA_SOLIC_SADT, NM_PACIENTE, CD_ITEM_PEDIDO, CD_PACIENTE, DS_ERRO, TP_INTEGRACAO, DT_INTEGRACAO ' + 
+    'FROM '.fontcolor('#32CD32') + 'MVINTEGRA.INTEGRA_SAIDA_SOLICITACAO_SADT ' + 'WHERE'.fontcolor('#32CD32') + ' CD_PACIENTE = ' + "'" 
         + inputProntuario.fontcolor('#32CD32') + "'";     
     btnClipboardISSSProntuario.setAttribute('style', 'display: inline-block');
     btnClipboardRVEPProntuario.setAttribute('style', 'display: inline-block');
